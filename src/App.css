@@ -1,0 +1,41 @@
+.App{
+  max-width: 400px;
+  padding: 15px 10px 10px;
+  background: #1a3e39;
+  box-shadow: 0 0 12px rgba(0,0,0,.4);
+}
+.value-container{
+  margin: 0 0 10px;
+}
+.value-container input{
+  display: block;
+  width: 97%;
+  border: none;
+  height: 30px;
+  text-align: right;
+  padding: 30px 20px;
+  margin: 0 auto;
+  font-size: 34px;
+  font-weight: 600;
+  color: #4a4a4a;
+  cursor: default;
+}
+.buttons-container button{
+  width: 22%;
+  height: 50px;
+  line-height: 40px;
+  margin: 2% 1.5%;
+  border: none;
+  outline: none;
+  background: rgba(255,255,255,.25);
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
+}
+.buttons-container button:hover{
+  box-shadow: inset 0 0 20px rgba(255,255,255,.8);
+}
